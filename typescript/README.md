@@ -1,12 +1,28 @@
 # Typescript
 
-To install dependencies:
+## Install bun if need
+
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+or
+
+```bash
+brew install oven-sh/bun/bun
+```
+
+more info: <https://bun.sh/>
+
+## Run
+
+Install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+Run manually:
 
 ```bash
 bun run index.ts
