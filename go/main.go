@@ -74,9 +74,9 @@ func calculateSpecialPrice(menuPrice MenuSetPrice, discount uint16, amount uint1
 	// Calculate new amount for each even, odd case
 	var newAmount uint16
 	if isEven {
-		newAmount = amount // เลขคี่
+		newAmount = amount // เลขคู่
 	} else {
-		newAmount = amount - 1 // เลขคู่
+		newAmount = amount - 1 // เลขคี่
 	}
 
 	// Calculate total price
